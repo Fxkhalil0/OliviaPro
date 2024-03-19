@@ -12,6 +12,7 @@ import Img4 from '../../assets/home/OliviaPro-Yoga03-1.jpg'
 import Reveiws from '../../assets/home/OliviaPro-Yoga14-1.jpg'
 import videoBG from '../../assets/home/Olivia Pro  Feminine Coaching Divi Child Theme.mp4'
 import CardTwo from "../Components/CardTwo/CardTwo";
+import Footer from "../Components/Footer/Footer";
 
 
 
@@ -138,6 +139,8 @@ function Home() {
                     <CardTwo />
                 </div>
             </div>
+            {/*-----------------------Footer------------------ */}
+            <Footer />
         </>
     );
 }

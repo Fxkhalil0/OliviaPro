@@ -340,6 +340,11 @@
     color: #9d7c5e;
     font-size: 23px;
     cursor: pointer;
+    transition: 0.2s ease;
+}
+.arrows > i:hover{
+    border: 1px solid #000000;
+    color: #000000;
 }
 .arrows > i:first-of-type{
     margin-right: 30px;
