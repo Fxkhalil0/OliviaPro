@@ -15,9 +15,9 @@ function Footer() {
                         <div className={style["firs__foot"]}>
                             <h2>FOLLOW ME ON INSTAGRAM</h2>
                             <div className={style["footer__gallery"]}>
-                                <img src={One} />
-                                <img src={Two} />
-                                <img src={Three} />
+                                <img src={One} alt=""/>
+                                <img src={Two} alt=""/>
+                                <img src={Three} alt=""/>
                                 <button><i class="fa-brands fa-instagram"></i>Follow on Instagram</button>
                             </div>
                             <div className={style["icons"]}>

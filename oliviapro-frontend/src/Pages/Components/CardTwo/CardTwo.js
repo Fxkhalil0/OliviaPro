@@ -4,47 +4,45 @@ import Card1 from '../../../assets/home/OliviaPro-Yoga03-1.jpg'
 import Card2 from '../../../assets/home/OliviaPro-Yoga12-copy-980x980.jpg'
 import Card3 from '../../../assets/home/OliviaPro-Yoga15-1-980x980.jpg'
 
-
-
 function CardTwo() {
+    // Array of card data
+    const cardsData = [
+        {
+            image: Card1,
+            category: "Fitness",
+            title: "Sample post without sidebar",
+            comments: "OCT 21 2020 // 0 COMMENTS",
+        },
+        {
+            image: Card2,
+            category: "Beauty , Minset",
+            title: "Sample post with threaded comments",
+            comments: "OCT 21 2020 // 0 COMMENTS",
+        },
+        {
+            image: Card3,
+            category: "Recipes",
+            title: "Sample post with image centered",
+            comments: "OCT 21 2020 // 0 COMMENTS",
+        }
+    ];
+
     return (
-        <>
-            <div className={style["cards"]}>
-                <div className={style["card__box"]}>
+        <div className={style["cards"]}>
+            {cardsData.map((card, index) => (
+                <div className={style["card__box"]} key={index}>
                     <div className={style["img__container"]}>
-                        <img src={Card1} />
+                        <img src={card.image} alt={card.title} />
                     </div>
                     <div className={style["card__content"]}>
-                        <p>Fitness</p>
-                        <h2>Sample post without sidebar</h2>
-                        <p>OCT 21 2020 / / 0 COMMENTS</p>
-                        <button>Read More <i class="fas fa-arrow-right"></i></button>
+                        <p>{card.category}</p>
+                        <h2>{card.title}</h2>
+                        <p>{card.comments} </p>
+                        <button>Read More <i className="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
-                <div className={style["card__box"]}>
-                    <div className={style["img__container"]}>
-                        <img src={Card2} />
-                    </div>
-                    <div className={style["card__content"]}>
-                        <p>Beauty , Minset</p>
-                        <h2>Sample post with threaded comments</h2>
-                        <p>OCT 21 2020 / / 0 COMMENTS</p>
-                        <button>Read More <i class="fas fa-arrow-right"></i></button>
-                    </div>
-                </div>
-                <div className={style["card__box"]}>
-                    <div className={style["img__container"]}>
-                        <img src={Card3} />
-                    </div>
-                    <div className={style["card__content"]}>
-                        <p>Recipes</p>
-                        <h2>Sample post with image centered</h2>
-                        <p>OCT 21 2020 / / 0 COMMENTS</p>
-                        <button>Read More <i class="fas fa-arrow-right"></i></button>
-                    </div>
-                </div>
-            </div>
-        </>
+            ))}
+        </div>
     );
 }
 

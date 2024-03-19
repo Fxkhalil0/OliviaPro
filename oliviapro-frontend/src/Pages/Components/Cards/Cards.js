@@ -41,7 +41,7 @@ function Cards() {
                         <div className={style["card__content"]}>
                             <h2>{card.title}</h2>
                             <p>{card.content}</p>
-                            <a>Read More <i class="fas fa-arrow-right"></i></a>
+                            <a href="/#">Read More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 ))}

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import style from './Home.module.css'
 import Navbar from "../Components/Navbar/Navbar";
 import Hero from '../../assets/home/OliviaPro-Yoga02-1.jpg'
@@ -34,9 +34,8 @@ function Home() {
                     </div>
                 </div>
                 <div className={style["right__div"]}>
-
                 </div>
-                <img src={Hero} />
+                <img src={Hero} alt=""/>
             </div>
             {/*--------------------Work With Me Section-------------------*/}
             <div className={style["wwme__sec"]}>
@@ -53,8 +52,8 @@ function Home() {
                 <div className="container">
                     <div className={style["meet__content"]}>
                         <div className={style["meet__left"]}>
-                            <img src={Coach} />
-                            <img src={Orange} className={style["second-image"]} />
+                            <img src={Coach} alt=""/>
+                            <img src={Orange} className={style["second-image"]} alt=""/>
                         </div>
                         <div className={style["meet__right"]}>
                             <p>MEET THE COACH</p>
@@ -76,20 +75,20 @@ function Home() {
                 <div className="container">
                     <div className={style["gallery"]}>
                         <div className={style["left__gallery"]}>
-                            <img src={Img1} />
+                            <img src={Img1} alt=""/>
                             <button>boadcast</button>
                         </div>
                         <div className={style["right__gallery"]}>
-                            <img src={Orange} />
+                            <img src={Orange} alt=""/>
                             <button className={style["mindest"]}>Mindest</button>
 
-                            <img src={Img2} />
+                            <img src={Img2} alt=""/>
                             <button className={style["recipes"]}>Recipes</button>
 
-                            <img src={Img3} />
+                            <img src={Img3} alt=""/>
                             <button className={style["wellness"]}>Wellness</button>
 
-                            <img src={Img4} />
+                            <img src={Img4} alt=""/>
                             <button className={style["fitness"]}>Fitness</button>
                         </div>
                     </div>
@@ -116,8 +115,8 @@ function Home() {
                             </div>
                         </div>
                         <div className={style["reveiws__right"]}>
-                            <img src={Reveiws} />
-                            <img src={Img3} className={style["sec__rev"]} />
+                            <img src={Reveiws} alt=""/>
+                            <img src={Img3} className={style["sec__rev"]} alt=""/>
                         </div>
                     </div>
                 </div>
