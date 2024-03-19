@@ -1,0 +1,143 @@
+.hero__sec {
+    display: flex;
+    position: relative;
+    height: 880px;
+}
+
+.left__div {
+    width: 50%;
+    background-color: #f5f5f5;
+    background-image: url('../../assets/home/shadow0.png');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left__div > .div__content{
+    padding: 0 150px;
+}
+.left__div>.div__content>p:first-of-type {
+    margin-bottom: 16px;
+}
+.left__div > .div__content > h2{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.left__div > .div__content > p:last-of-type{
+    line-height: 33px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.left__div > .div__content > button{
+    border: none;
+    outline: none;
+    background-color: #9d7c5e;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 12px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.left__div > .div__content > button:hover{
+    background-color: #2c3a45;
+}
+
+.right__div {
+    width: 50%;
+    background-image: url('../../assets/home/OliviaPro-YogaHeader-scaled.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.hero__sec>img {
+    position: absolute;
+    width: 500px;
+    top: 70px;
+    right: 370px;
+}
+.wwme__sec{
+    text-align: center;
+    margin-top: 100px;
+}
+.sec__content > p{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.sec__content > h2{
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+.meet__coach {
+    margin-top: 100px;
+    background-color: #abb8c3;
+    background-image: url('../../assets//home/shadow0.png');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: fit-content;
+}
+.meet__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+.meet__left{
+    width: 50%;
+    position: relative;
+}
+.meet__left > img{
+    width: 58%;
+    float: right;
+}
+.second-image{
+    width: 50%;
+    position: absolute;
+    border: 15px solid white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.meet__right{
+    width: 47%;
+}
+.meet__right > p:first-child{
+    margin-bottom: 16px;
+}
+.meet__right > h2{
+    font-size: 36px;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+.meet__right > p{
+    text-align: justify;
+    line-height: 36px;
+}
+.meet__right > p:nth-last-child(2){
+    margin: 20px 0;
+}
+.meet__right > button{
+    border: none;
+    outline: none;
+    background-color: #9d7c5e;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 12px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.meet__right > button:hover{
+    background-color: #2c3a45;
+}
