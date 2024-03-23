@@ -1,6 +1,8 @@
 import React from "react";
 import style from './Navbar.module.css'
 import Logo from '../../../assets/logo.png'
+import { NavLink } from "react-router-dom";
+
 
 
 
@@ -24,8 +26,8 @@ function Navbar() {
                         </div>
                         <div className={style["sec__part"]}>
                             <ul>
-                                <li>Home</li>
-                                <li>About</li>
+                            <li><NavLink to="/home">Home</NavLink></li>
+                            <li><NavLink to="/about">About</NavLink></li>
                                 <li>Blog</li>
                                 <li>Services</li>
                                 <li>Pages<i class="fa-solid fa-chevron-down"></i>

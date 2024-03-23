@@ -1,0 +1,286 @@
+.brand__sec {
+    display: flex;
+    position: relative;
+    height: 1100px;
+    z-index: 1;
+}
+
+.left__div {
+    width: 50%;
+    background-image: url('../../assets/home/OliviaPro-YogaHeader-scaled.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.right__div {
+    width: 50%;
+    background-color: #DCE2E2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 130px;
+}
+
+.brand__sec>img {
+    position: absolute;
+    width: 600px;
+    top: 100px;
+    left: 266px;
+}
+
+.div__content>p {
+    text-align: justify;
+}
+
+.div__content>p:first-of-type {
+    margin-bottom: 16px;
+}
+
+.div__content>h2 {
+    font-size: 36px;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+
+.div__content>.first__line,
+.div__content>p:nth-last-of-type(2),
+.div__content>p:last-of-type {
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.right__div>.div__content>button {
+    border: none;
+    outline: none;
+    background-color: #9d7c5e;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.right__div>.div__content>button:hover {
+    background-color: #2c3a45;
+}
+
+.story__sec {
+    margin-top: 70px;
+}
+
+.story__content>p,
+.story__content>h2 {
+    text-align: center;
+}
+
+.story__content>p {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.story__content>h2 {
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.my__story {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.left__side {
+    border-right: 2px solid black;
+    padding-right: 40px;
+}
+
+.right__side {
+    padding-left: 40px;
+}
+
+.left__side>p,
+.right__side>p {
+    line-height: 30px;
+}
+
+.left__side>p:first-of-type,
+.right__side>p:first-of-type {
+    margin-bottom: 16px;
+}
+
+.my__faves {
+    margin-top: 100px;
+    background-color: #DCE2E2;
+    background-image: url('../../assets/home/Shadow1.png');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.my__faves__content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 230px;
+    padding-bottom: 170px;
+    position: relative;
+}
+
+.my__fav__left {
+    width: 65%;
+}
+
+.my__fav__left>img:first-of-type {
+    width: 397px;
+    height: 397px;
+    position: absolute;
+    top: 300px;
+    z-index: 999;
+}
+
+.my__fav__left>img:last-of-type {
+    width: 476px;
+    height: 714px;
+    position: absolute;
+    z-index: 1;
+    border-top-right-radius: 330px;
+    border-top-left-radius: 330px;
+    top: 120px;
+    right: 40%;
+}
+
+.my__fav__left>h2 {
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.my__fav__right {
+    width: 35%;
+}
+
+.faves__list {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.faves__list>img {
+    width: 30px;
+    height: 30px;
+}
+
+.faves__list>p {
+    margin-left: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+.plan__sec{
+    margin-top: 100px;
+}
+.plan__content > p, .plan__content > h2{
+    text-align: center;
+}
+.plan__content>p {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.plan__content>h2 {
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+.are__u__ready{
+    margin-top: 100px;
+    background-color: #DCE2E2;
+    background-image: url('../../assets/home/shadow0.png');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.ready__content{
+    text-align: center;
+    padding-top: 150px;
+}
+.ready__content > h2{
+    font-size: 36px ;
+    letter-spacing: 1px;
+}
+.ready__content > p{
+    margin: 16px 0;
+}
+.ready__content>button {
+    border: none;
+    outline: none;
+    background-color: #9d7c5e;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.ready__content>button:hover {
+    background-color: #2c3a45;
+}
+.the__next{
+    margin-top: 50px;
+    background-image: url('../../assets/about//Leaf-and-Flower-background.png');
+    background-size: contain;
+    background-position: 45%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.the__next__content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 60px 0;
+}
+.first__div{
+    width: 32%;
+}
+.first__div > h2{
+    font-size: 36px ;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+.first__div > p{
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.sec__div{
+    position: relative;
+}
+.sec__div > img{
+    width: 397px;
+    height: 397px;
+}
+.sec__div > p{
+    position: absolute;
+    transform: rotate(270deg);
+    bottom: 208px;
+    left: 205px;
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 23px;
+    letter-spacing: 1px;
+}

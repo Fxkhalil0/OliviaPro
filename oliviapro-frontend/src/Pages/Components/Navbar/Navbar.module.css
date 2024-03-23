@@ -1,5 +1,6 @@
 nav {
     background-color: #F5F5F5;
+    position: relative;
 }
 
 .first__part {
@@ -38,8 +39,13 @@ nav {
     font-weight: 500;
 }
 .sec__part > ul > li{
+    color: black;
     margin-right: 30px;
     cursor: pointer;
+}
+.sec__part > ul > li > a {
+    color: black; 
+    text-decoration: none;
 }
 .sec__part > ul > li:nth-last-of-type(5) > i{
     margin-left: 5px;
@@ -55,6 +61,9 @@ nav {
 .sub__menu{
     display: none;
     background-color: #ffffff;
+    position: absolute;
+    top: 225px;
+    z-index: 0;
 }
 .sub__menu > ul{
     border-top: 3px solid #9d7c5e;
@@ -75,5 +84,5 @@ nav {
 .sec__part > ul > li:hover .sub__menu{
     display: block;
     position: absolute;
-    z-index: 1000;
+    z-index: 2000;
 }
