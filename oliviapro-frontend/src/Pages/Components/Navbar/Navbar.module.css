@@ -55,7 +55,6 @@ nav {
     margin-right: 0px;
 }
 .sec__part > ul > li:hover{
-    opacity: .7;
     transition: all .4s ease-in-out;
 }
 .sub__menu{
