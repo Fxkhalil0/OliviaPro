@@ -1,0 +1,87 @@
+.pricing__header {
+    background-image: url('../../assets/home/OliviaPro-YogaHeader-scaled.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    margin-bottom: 100px
+}
+
+.header__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 50px;
+    width: 60%;
+}
+.header__content > h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-bottom: 15px;
+}
+.pricing__content{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.pricing__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: 32%;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+.card:nth-last-of-type(2){
+    background-color: #dce2e2;
+}
+.card > h2{
+    font-size: 36px;
+    margin-bottom: 16px;
+    line-height: 1em;
+    font-weight: 500;
+}
+.card > p:first-of-type{
+    letter-spacing: 3px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.card > figure{
+    max-height: 380px;
+    overflow: hidden;
+}
+.card > figure > img{
+    width: 100%;
+}
+.card > p:last-of-type{
+    font-size: 17px;
+    line-height: 2.2em;
+    margin: 16px 0;
+}
+.card>button {
+    border: none;
+    outline: none;
+    background-color: #9d7c5e;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.card>button:hover {
+    background-color: #2c3a45;
+}

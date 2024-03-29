@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import style from './About.module.css'
 import Navbar from "../Components/Navbar/Navbar";
 import Brand from '../../assets/about/Oliviapro-Yoga31-1.jpg'
@@ -10,7 +10,7 @@ import SecImg from "../../assets/about/OliviaPro-Yoga09-1.jpg";
 import ThirdImg from "../../assets/about/OliviaPro-Hero02-1.jpg";
 import Footer from "../Components/Footer/Footer";
 
-function About() {
+function About({ setLoading }) {
     const favorites = [
         { id: 1, text: "I love eating rice" },
         { id: 2, text: "I have 3 lovely cats" },
@@ -19,6 +19,9 @@ function About() {
         { id: 5, text: "My favorite drink is now the alkaline water" },
         { id: 6, text: "I can´t live without expresso" },
     ];
+    useEffect(() => {
+        setLoading(false); 
+      }, [setLoading]);
     return (
         <>
             <Navbar />

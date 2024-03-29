@@ -29,11 +29,11 @@ function Navbar() {
                             <li><NavLink to="/home">Home</NavLink></li>
                             <li><NavLink to="/about">About</NavLink></li>
                                 <li>Blog</li>
-                                <li>Services</li>
+                                <li><NavLink to="/services">Services</NavLink></li>
                                 <li>Pages<i class="fa-solid fa-chevron-down"></i>
                                     <div className={style["sub__menu"]}>
                                         <ul>
-                                            <li>Pricing Table</li>
+                                            <li><NavLink to="/pricing-table">Pricing Table</NavLink></li>
                                             <li>Testimonials</li>
                                         </ul>
                                     </div>

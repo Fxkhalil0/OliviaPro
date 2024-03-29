@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import style from './Home.module.css'
 import Navbar from "../Components/Navbar/Navbar";
 import Hero from '../../assets/home/OliviaPro-Yoga02-1.jpg'
@@ -16,8 +16,10 @@ import Footer from "../Components/Footer/Footer";
 
 
 
-function Home() {
-
+function Home({ setLoading }) {
+    useEffect(() => {
+        setLoading(false);
+      }, [setLoading]);
     return (
         <>
             <Navbar />
